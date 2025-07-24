@@ -93,3 +93,41 @@ th {
 .btn-voltar:hover {
   background-color: #bbb;
 }
+
+.hidden {
+  display: none;
+}
+
+/* Estilo botão verde para alternar filtros */
+#toggle-filtros,
+.button.green {
+  background-color: #28a745;
+}
+
+#toggle-filtros:hover,
+.button.green:hover {
+  background-color: #218838;
+}
+
+/* Estilo botão vermelho para deletar */
+.button.red {
+  background-color: #dc3545;
+}
+
+.button.red:hover {
+  background-color: #c82333;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.top-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
